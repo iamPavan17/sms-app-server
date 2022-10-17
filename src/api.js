@@ -30,7 +30,7 @@ router.post("/send-message", (req, res) => {
 
     -Sent by Krishna.NIC
     `,
-    route: "v3",
+    route: "q",
     sender_id: "TXTIND",
     language: "english",
   });

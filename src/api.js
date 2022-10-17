@@ -25,7 +25,11 @@ router.post("/send-message", (req, res) => {
 
   request.form({
     numbers,
-    message,
+    message: `
+    ${message}
+
+    -Sent by Krishna.NIC
+    `,
     route: "v3",
     sender_id: "TXTIND",
     language: "english",

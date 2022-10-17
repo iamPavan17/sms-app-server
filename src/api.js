@@ -26,7 +26,7 @@ router.post("/send-message", (req, res) => {
   request.form({
     numbers,
     message,
-    route: "q",
+    route: "v3",
     sender_id: "TXTIND",
     language: "english",
   });

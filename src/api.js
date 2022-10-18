@@ -28,7 +28,7 @@ router.post("/send-message", (req, res) => {
     message: `
     ${message}
 
-  -Sent by Krishna.NIC
+-Sent by Krishna.NIC
     `,
     route: "v3",
     sender_id: "TXTIND",
